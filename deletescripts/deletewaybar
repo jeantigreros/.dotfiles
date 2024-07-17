@@ -1,3 +1,0 @@
-rm -rf ~/.config/waybar 
-
-ln -srv waybar ~/.config
