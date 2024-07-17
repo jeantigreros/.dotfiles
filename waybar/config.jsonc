@@ -8,7 +8,7 @@
     "margin-right": 0,
     "modules-left": ["hyprland/workspaces", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["cpu", "memory", "disk"],
-    "modules-right": ["tray", "wireplumber","network","clock", "custom/power"],
+    "modules-right": ["tray", "wireplumber","network","clock", "custom/power","group/temp","battery"],
     // Modules configuration
 	"clock": {
 		"format": "   {:%H:%M}",
@@ -89,7 +89,7 @@
         	"format-alt": "󰤨 {ipaddr}/{cidr}",
           "tooltip-format": "{essid}",
           "on-click-right": "nm-connection-editor"
-	},
+  },
 
 	"tray": {
 		"icon-size": 16,
@@ -114,6 +114,41 @@
     "format-icons": " ⏻ ",
     "on-click" : "wlogout"
 
+  },
+
+  "custom/arrow": {
+    "format": " ",
+  "interval": 86400,
+  "tooltip": true
+},
+
+"group/temp": {
+"orientation": "inherit",
+"drawer": {
+  "transition-duration": 300,
+  "children-class": "not-memory",
+  "transition-left-to-right": false
+},
+"modules": ["custom/arrow","temperature"]
+},
+
+  "temperature" : {
+    "format": "{temperatureC}°C "
+
+  },
+
+  "battery": {
+    "bat": "BAT0",
+    "states": {
+        "warning": 30,
+        "critical": 15
+    },
+    "format": "{capacity}% {icon}",
+    "format-icons": [" "," "," "," "," "]
+    }
   }
+
+  }
+
 
 }
