@@ -8,13 +8,13 @@
     "margin-right": 0,
     "modules-left": ["hyprland/workspaces", "custom/playerctl", "custom/playerlabel"],
     "modules-center": ["cpu", "memory", "disk"],
-    "modules-right": ["tray", "wireplumber","network","clock", "custom/power","group/temp","battery"],
+    "modules-right": ["tray", "wireplumber","battery","group/temp","network","clock","custom/power"],
     // Modules configuration
 	"clock": {
 		"format": "   {:%H:%M}",
 		"tooltip": "true",
         	"tooltip-format": "<big>{:%Y %B}</big>\n<tt><small>{calendar}</small></tt>",
-        	"format-alt": " {:%d/%m}"
+        	"format-alt": " {:%d/%m} "
 	},
 	
 
