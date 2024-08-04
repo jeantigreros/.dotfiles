@@ -3,7 +3,7 @@
     border-radius: 0px;
     /*font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK;*/
     font-family: UbuntuMono Nerd Font, monospace;
-    font-size: 17px;
+    font-size: 18px;
     font-style: normal;
     min-height: 0;
 }
@@ -82,7 +82,6 @@ window#waybar {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: bold;
-    font-size: 20px;
     /*border-left: solid 1px #282738;*/
 }
 
@@ -91,7 +90,6 @@ window#waybar {
     color: #d8dee9;
     border-radius: 8px;
     margin-right: 5px;
-    font-size: 20px;
 }
 
 #wireplumber {
