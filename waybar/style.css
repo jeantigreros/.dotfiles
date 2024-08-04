@@ -3,7 +3,7 @@
     border-radius: 0px;
     /*font-family: VictorMono, Iosevka Nerd Font, Noto Sans CJK;*/
     font-family: UbuntuMono Nerd Font, monospace;
-    font-size: 19px;
+    font-size: 18px;
     font-style: normal;
     min-height: 0;
 }
@@ -82,7 +82,6 @@ window#waybar {
     margin-top: 0px;
     margin-bottom: 0px;
     font-weight: bold;
-    font-size: 20px;
     /*border-left: solid 1px #282738;*/
 }
 
@@ -91,14 +90,12 @@ window#waybar {
     color: #d8dee9;
     border-radius: 8px;
     margin-right: 5px;
-    font-size: 20px;
 }
 
 #wireplumber {
     color: #d8dee9;
     border-radius: 8px;
     margin-left: 0px;
-    font-size: 20px;
 }
 
 #wireplumber.muted {
@@ -121,7 +118,6 @@ window#waybar {
     margin: 0px 0px 0px 0px;
     padding: 0 20px 0 13px;
     /*border-right: solid 1px #282738;*/
-    font-size: 20px;
 }
 
 #custom-launcher button:hover {
@@ -144,7 +140,6 @@ window#waybar {
     margin-left: 0px;
     font-weight: normal;
     font-style: normal;
-    font-size: 20px;
 }
 
 #custom-playerlabel {
@@ -229,7 +224,3 @@ window#waybar {
   background-color: #26a65b;
   
 }
-
-
-
-
