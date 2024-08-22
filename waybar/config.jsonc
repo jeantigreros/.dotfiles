@@ -78,7 +78,7 @@
     "format": "󰋊 {free}",
     "format-alt": "󰋊 {free}/{total} GiB",
     "interval": 5,
-    "path": "/"
+    "path": "/home/"
   },
 	
 	"network": {
