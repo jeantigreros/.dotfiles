@@ -2,8 +2,10 @@ rm -rf ~/.config/hypr/
 rm -rf ~/.config/waybar/  
 rm -rf ~/.config/nvim/
 rm -rf ~/.config/nvim.backup/
+rm -rf ~/.config/kitty/
 
 ln -srv hypr ~/.config 
 ln -srv waybar ~/.config
 ln -srv nvim ~/.config 
 ln -srv nvim.backup ~/.config 
+ln -srv kitty ~/.config

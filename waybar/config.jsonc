@@ -97,8 +97,8 @@
 	},
 
   "wireplumber": {
-		"format": "{icon} {volume}%",
-        	"format-muted": " 󰟎 ",
+		"format": "{volume}% {icon}",
+            "format-muted": " 󰟎 ",
 		"format-icons": {
 			"default": [" 󰋋 "]
 		},
@@ -141,7 +141,7 @@
     "bat": "BAT0",
     "states": {
         "warning": 30,
-        "critical": 15
+        "critical": 20
     },
     "format": "{capacity}% {icon}",
     "format-icons": [" "," "," "," "," "]

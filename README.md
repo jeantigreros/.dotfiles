@@ -1,7 +1,7 @@
 # dotfiles
-my personal dotfiles, proceed with caution!, this are my configs for my pc/laptop so careful.
+my personal dotfiles, proceed with caution!, this are my configs for my laptop and i haven't test yet in another machine. CAREFUL!!
 
-
+{TODO: good READme}
 ## INFORMATION
 
 I'm using Hyprland as Wayland tiling compositor
@@ -11,13 +11,12 @@ I'm using Hyprland as Wayland tiling compositor
 ### Installing needed dependencies
 ## some links
 
-* **Window Manager**
-* **Shell** 
-* **Terminal** 
-* **Panel** 
-* **Notify Daemon** 
-* **Launcher**  
-* **File Manager** 
+* **Window Manager** [Hyprland]
+* **Shell** [Starship] 
+* **Terminal** [kitty]
+* **Notify Daemon** [Dunst]
+* **Launcher**  [Rofi]
+* **File Manager** [Thunar]
 * **Music Player** • [Youtube Music App ](https://github.com/th-ch/youtube-music)
 
 ### Keybinds
